@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	border: 1px solid black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#main{
+	width: 780px;
+	margin: 0 auto;
+}
+
+#header{
+	height: 117px; 
+	background: url(img/header.jpg) no-repeat; 
+	color: white;
+	position: relative; 
+}
+
+#header h1{
+	position: absolute; 
+	top: 35px;
+	left: 30px;	
+}
+
+#top_menu{
+	height: 55px; 
+	background: url(img/top_menu.jpg); /*no-repeat не нужен т.к. она должна быть в виде однопиксельной полоски*/
+	margin-top: 4px;
+}
+
+#left, #right{
+	width: 187px;
+	height: 500px;
+}
+
+#left{
+	float: left;
+	background: #246494; 
+}
+
+#right{
+	float: right;
+}
+
+#center{
+	min-height: 500px;
+	overflow: hidden; 
+} 
+
+#footer{
+	height: 77px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
